@@ -8,7 +8,7 @@ export default function Home() {
 
   useEffect(() => {
     if (isLoggedIn()) router.push('/dashboard');
-    else router.push('/login');
+    else router.push('/home');
   }, []);
 
   return (
